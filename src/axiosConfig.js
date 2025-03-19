@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL:"https://api-tree.onrender.com"
+    baseURL:"https://api-new-tree.onrender.com"
 })
 
 // Add a request interceptor
