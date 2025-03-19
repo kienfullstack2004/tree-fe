@@ -126,7 +126,7 @@ export const apiCreateNews = (payloadnew) => new Promise(async(relsove,reject)=>
     try {
         const responsive = await axiosConfig({
             method:'post',
-            url:'api/v1/post/create',
+            url:'api/v1/post/createNew',
             data:payloadnew
         })
         relsove(responsive);
